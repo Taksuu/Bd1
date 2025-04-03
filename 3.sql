@@ -12,17 +12,19 @@ create table tbPet(
 	Sexo varchar(9)
     );
     
-insert into tbPet (NumRegistro, Nome, Especie, Raca, Cor, Nascimento, Sexo)
-values  (1, "Mico Meu", "Macaco", "Mico-Leão-Dourado", "Laranja", "2024-12-08", "M"),
-		(2, "Teuku", "Pássaro", "Tucano", "Preto, branco e amarelo", "2024-05-23", "M"),
-        (3, "Francisco", "Pássaro", "Papagaio", "Verde", "2025-01-08", "M"),
-        (4, "Satanás", "Gato", "Bombaim", "Preto", "2022-12-09", "M"),
-        (5, "Iggy", "Cachorro", "Boston Terrier", "Preto e branco", "2016-01-04", "M"),
-        (6, "Grosso", "Pássaro", "Galo", "Marrom", "2025-05-15", "M"),
-        (7, "Lingangu", "Cachorro", "Pug", "Bege", "2018-10-03", "F"),
-        (8, "Guliguli", "Gato", "Persa", "Cinza", "2020-02-29", "M"),
-        (9, "Jeca", "Tatu", "Tatu-Canastra", "Marrom", "2022-02-13", "M"),
-        (10, "Bacon", "Porco", "Porco-da-Índia", "Preto e branco", "2025-02-20", "M");
+INSERT INTO tbPet (NumRegistro, Nome, Especie, Raca, Cor, Nascimento, Sexo)
+VALUES 
+    (1, "Rex", "Cachorro", "Labrador", "Amarelo", "2020-08-15", "M"),
+    (2, "Lua", "Gato", "Siames", "Bege e marrom", "2019-02-20", "F"),
+    (3, "Zeus", "Cachorro", "Husky Siberiano", "Cinza e branco", "2018-11-25", "M"),
+    (4, "Bella", "Gato", "Siamês", "Azul", "2021-05-18", "F"),
+    (5, "Fiona", "Coelho", "Mini Coelho", "Branco", "2022-09-10", "F"),
+    (6, "Toby", "Cachorro", "Beagle", "Marrom e branco", "2021-07-09", "M"),
+    (7, "Maya", "Gato", "Persa", "Cinza", "2017-04-12", "F"),
+    (8, "Charlie", "Cachorro", "Golden Retriever", "Dourado", "2020-01-03", "M"),
+    (9, "Luna", "Cachorro", "Bulldog", "Branco e marrom", "2022-12-25", "F"),
+    (10, "Rocky", "Cachorro", "Pitbull", "Preto", "2023-06-11", "M");
+
         
 select * from tbPet;
 
